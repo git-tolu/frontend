@@ -1,13 +1,14 @@
 import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Class';
-import Hello from './components/hello';
-import Message from "./components/message";
+// import Greet from './components/Greet';
+// import Welcome from './components/Class';
+// import Hello from './components/hello';
+// import Message from "./components/message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <p>Welcome To react</p>
+      {/* <p>Welcome To react</p>
       <Greet name="bruce" heroName="Batman"> <p>This is children Props</p></Greet> 
       <Greet name="mark" heroName="google owner">
         <button>children Button</button>
@@ -17,7 +18,8 @@ function App() {
       <Welcome name="mark" heroName="google owner" />
       <Welcome name="diana" heroName="supergirl" />
       <Hello />
-      <Message />
+      <Message /> */}
+      <Counter />
     </div>
   );
 }
