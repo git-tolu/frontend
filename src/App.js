@@ -5,7 +5,8 @@ import './App.css';
 // import Message from "./components/message";
 // import Counter from "./c omponents/Counter";
 // import FunctionClick from "./components/FunctionClick";
-import ClassClick from "./components/ClassClick";
+// import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Message /> */}
       {/* <Counter /> */}
       {/* <FunctionClick /> */}
-      <ClassClick />
+      {/* <ClassClick /> */}
+      <EventBind />
     </div>
   );
 }
