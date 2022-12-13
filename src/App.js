@@ -3,7 +3,8 @@ import './App.css';
 // import Welcome from './components/Class';
 // import Hello from './components/hello';
 // import Message from "./components/message";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Welcome name="diana" heroName="supergirl" />
       <Hello />
       <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <FunctionClick />
     </div>
   );
 }
