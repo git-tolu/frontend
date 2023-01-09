@@ -1,5 +1,6 @@
 import './App.css';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 // import Greet from './components/Greet';
 // import Welcome from './components/Class';
 // import Hello from './components/hello';
@@ -12,7 +13,8 @@ import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <UserGreeting/>
       {/* <p>Welcome To react</p>
       <Greet name="bruce" heroName="Batman"> <p>This is children Props</p></Greet> 
       <Greet name="mark" heroName="google owner">
