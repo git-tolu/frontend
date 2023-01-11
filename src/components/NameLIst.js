@@ -23,7 +23,7 @@ export const NameList = () => {
     ];
     // const names = ['Bruce', 'David', 'bode'];
     // const nameList = names.map((name)=><h2>{name}</h2>)
-    const personList = persons.map((persons)=> (<Person persons={persons}></Person>)) 
+    const personList = persons.map((persons)=> (<Person key={persons.id} persons={persons}></Person>)) 
   return (
     <div>
         {personList}
